@@ -1,0 +1,27 @@
+HTML 5 Demo Page 2222
+This is a Simple HTML5 Page With Semantics
+
+Home
+W3 School
+Google
+
+Section 1 : A Simple HTML5 Page
+This is an example of a simple HTML5 webpage
+
+Section 2 : What is New in HTML5?
+Article 1: The most interesting new HTML5 elements are
+New semantic elements like < header > , < footer > , < article > , and < section>
+New attributes of form elements like number , date , time , calender and range
+New graphic elements < svg > and < canvas >
+New multimedia elements < audio >  < video >
+
+Section 3 : Progress bar wth ordered list
+Article 2: Progress you will make
+When you understand HTML5 code
+When you understand CSS Code
+When you understand Java Script
+When you understand HTML + CSS + JavaScript
+
+This page does not include any CSS COde and it still looks cool.
+
+@ 2021 CopyRight CMPS-350 Web App Development
