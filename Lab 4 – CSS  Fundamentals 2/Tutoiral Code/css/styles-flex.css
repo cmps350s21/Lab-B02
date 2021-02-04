@@ -1,0 +1,66 @@
+
+.wrapper {
+    display: flex;
+    border-style: solid;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: center;
+}
+.sub-box{
+    display: flex;
+    gap: 10px;
+}
+.sub-boxes{
+    background-color: yellow;
+    flex: 1 300px;
+}
+.box{
+    background-color: red;
+    height: 100px;
+    /*flex-basis: 300px;*/
+    /*flex-grow: 1;*/
+    /*min-width: 300px;*/
+    flex: 1 300px;
+}
+/*.box1{*/
+/*    flex: 1 ;*/
+/*}*/
+/*.box2{*/
+/*    flex: 1 ;*/
+/*}*/
+/*.box3{*/
+/*    flex: 1 ;*/
+/*}*/
+/*.box1 {*/
+/*    flex: 1;*/
+/*}*/
+
+/*.section {*/
+/*    border-style: dotted;*/
+/*    height: 20px;*/
+/*}*/
+/*nav{*/
+/*    background-color: brown;*/
+/*}*/
+/*.wrapper {*/
+/*    display: flex;*/
+/*    border-style: solid;*/
+/*    gap: 10px;*/
+/*    height: 200px;*/
+
+/*    !*justify-content: space-between;*!*/
+/*    !*align-items: flex-start;*!*/
+
+/*    !*flex-wrap: wrap;*!*/
+/*    !* Crtl + / *!*/
+/*    !*  justify-content , align-items  *!*/
+/*}*/
+/*.header{*/
+/*    order: 1;*/
+/*    flex: 1;*/
+/*}*/
+/*.header nav ul {*/
+/*    display: flex;*/
+/*    gap: 10px;*/
+/*}*/
