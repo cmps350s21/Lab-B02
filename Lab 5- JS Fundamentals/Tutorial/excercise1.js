@@ -1,5 +1,9 @@
 //Q1.
-for (let i = 0; i < 100; i++) if (i % 2) console.log(i)
+for (let i = 0; i < 100; i++)
+    if (i % 2 == 1)
+        console.log(i)
+
+
 let i = 0;
 while (i < 100) {
     if (i % 2) console.log(i)
@@ -18,7 +22,7 @@ console.log('after push;', names)
 
 //remove the last element
 names.pop()
-console.log('after pop', names)
+console.table(names)
 
 //remove the last beginning
 names.shift()
@@ -31,6 +35,6 @@ let x = [1, 2, 3, 4, 5, 6]
 console.log(x.filter(x => x > 4))
 console.log(x.find(x => x == 0))
 
-let w =    [1, [2,5,16], 3, 4, 5, 6].flat(2).reduce()
-w= w.flat(2)
+let w = [1, [2, 5, 16], 3, 4, 5, 6].flat(2).reduce()
+w = w.flat(2)
 console.log(w)
