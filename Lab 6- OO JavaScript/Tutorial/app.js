@@ -3,3 +3,12 @@ const Truck = require('./model/Truck');
 
 //create object of a bus
 let bus = new Bus('Toyota XZ125' , 1200 , 50);
+
+let busses = [
+    new Bus('Toyota XZ125' , 1200 , 50),
+    new Bus('Toyota XZ125' , 1200 , 50),
+    new Bus('Toyota XZ125' , 1200 , 50),
+    new Bus('Toyota XZ125' , 1200 , 50)
+
+]
+

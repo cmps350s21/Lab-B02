@@ -9,7 +9,7 @@ class Vehicle{
         else if(this.horsePower < 1000) return 1000
         else return 2000
     }
-    displayVehicleInfo(){
+    toString(){
         console.log(`
             Brand : ${this.brand}
             Horse Power : ${this.horsePower}
