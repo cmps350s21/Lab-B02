@@ -1,5 +1,4 @@
 const Vehicle = require('./Vehicle')
-//import the class
 
 class Bus extends Vehicle{
     constructor(brand , horsePower, numberOfPassengers){
@@ -8,4 +7,4 @@ class Bus extends Vehicle{
     }
 }
 
-// ctrl + ,
+module.exports = Bus
