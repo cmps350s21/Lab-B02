@@ -5,6 +5,14 @@ class Bus extends Vehicle{
         super(brand , horsePower)
         this.numberOfPassengers = numberOfPassengers
     }
+
+    badMethod(x){
+        // 100 line code
+        if(x < 10)
+            return true;
+        else
+            return false;
+    }
 }
 
 module.exports = Bus
