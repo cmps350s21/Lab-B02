@@ -34,7 +34,6 @@ async function addCensus(event) {
         newCensus.id = Date.now().toString()
         await db.collection('census').add(newCensus)
     }
-
     await showCensusData()
     formElement.reset()
     isEdit = false;
