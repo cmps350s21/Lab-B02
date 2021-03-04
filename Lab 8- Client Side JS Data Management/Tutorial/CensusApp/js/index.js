@@ -1,4 +1,5 @@
-
+const countryInputBox = document.querySelector("#country")
+const populationInputBox = document.querySelector("#population")
 const formElement = document.querySelector("#form")
 const countriesTable = document.querySelector("#countries")
 
@@ -36,6 +37,7 @@ async function addCensus(event) {
 
     await showCensusData()
     formElement.reset()
+    isEdit = false;
 }
 
 async function deleteCensus(cid) {
@@ -45,13 +47,11 @@ async function deleteCensus(cid) {
 
 async function editCensus(cid) {
     const censusToEdit = await db.collection('census').doc({id: cid}).get()
-    const countryInputBox = document.querySelector("#country")
-    const populationInputBox = document.querySelector("#population")
     countryInputBox.value = censusToEdit.country
     populationInputBox.value = censusToEdit.population
+
     censusToEditId = censusToEdit.id
     isEdit = true
-
 }
 
 function censusToHTMLTRow(c) {
@@ -93,7 +93,6 @@ async function showCensusData(noOfRows) {
     `
     }
 }
-
 
 
 
