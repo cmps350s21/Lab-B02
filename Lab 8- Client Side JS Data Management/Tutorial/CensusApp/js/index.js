@@ -29,9 +29,16 @@ function censusToHTMLTRow(c) {
     `
 }
 
-async function showCensusData() {
-    //open the database and read all the doc inside the collection]
-    const census = await db.collection('census').get()
+async function showCensusData(noOfRows) {
+    let census;
+    if(noOfRows)
+         census = await db.collection('census')
+             .limit(parseInt(noOfRows))
+             .orderBy("country", "asc")
+             .get()
+    else
+         census = await db.collection('census')
+             .orderBy("country", "asc").get()
 
     //we will convert this collection data into html table
     if (census.length > 0) {
@@ -59,6 +66,7 @@ async function addCensus(event) {
     }
     const message = await db.collection('census').add(newCensus)
     await showCensusData()
+    formElement.reset()
 }
 
 
