@@ -24,7 +24,7 @@ h1 , h2{
 .buttons{
     grid-column : 2/3;
     display : flex;
-    justify-content : flex-end;;
+    justify-content : flex-end;
 }
 .button{
     flex: 1;
