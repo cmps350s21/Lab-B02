@@ -1,6 +1,7 @@
 import fs from 'fs-extra'
 
 import {fileURLToPath} from 'url'
+
 const url = new URL('../data/accounts.json', import.meta.url)
 const filePath = fileURLToPath(url)
 export default class AccountsRepo {

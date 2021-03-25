@@ -20,7 +20,6 @@ export default class AccountService {
         const account = await accountRepo.deleteAccount(accountNo)
         res.json(account)
     }
-
     async addAccount(req, res) {
         const newAccount = req.body
         await accountRepo.addAccount(newAccount)
@@ -32,5 +31,4 @@ export default class AccountService {
         await accountRepo.updateAccount(updatedAccount)
         res.send(`Successfully updated the account`)
     }
-
 }
