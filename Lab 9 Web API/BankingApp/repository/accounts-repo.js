@@ -3,7 +3,6 @@ import fs from 'fs-extra'
 import {fileURLToPath} from 'url'
 const url = new URL('../data/accounts.json', import.meta.url)
 const filePath = fileURLToPath(url)
-
 export default class AccountsRepo {
     async getAccounts(type) {
         const accounts = await fs.readJson(filePath)
@@ -16,15 +15,14 @@ export default class AccountsRepo {
     async addAccount(newAccount) {
         const accounts = await fs.readJson(filePath)
         accounts.push(newAccount)
-        await fs.writeJson(filePath, accounts)
+        return await fs.writeJson(filePath, accounts)
     }
 
     async updateAccount(updatedAccount) {
         const accounts = await fs.readJson(filePath)
         const index = accounts.findIndex(acc => acc.accountNo == updatedAccount.accountNo)
-        // accounts[index] = updatedAccount
         accounts[index] = {...accounts[index], ...updatedAccount}
-        await fs.writeJson(filePath, accounts)
+        return await fs.writeJson(filePath, accounts)
     }
 
     async getAccount(accountNo) {
@@ -35,7 +33,7 @@ export default class AccountsRepo {
     async deleteAccount(accountNo) {
         const accounts = await fs.readJson(filePath)
         const filteredAccount = accounts.filter(acc => acc.accountNo != accountNo)
-        await fs.writeJson(filePath, filteredAccount)
+        return await fs.writeJson(filePath, filteredAccount)
     }
 
 }
