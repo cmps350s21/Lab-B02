@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Margherita",
+    "size": "3",
+    "toppings": [
+      "Pepperoni",
+      "Mushrooms",
+      "Onions",
+      "Sausage",
+      "Bacon",
+      "Extra cheese",
+      "Black olives",
+      "Green peppers",
+      "Pineapple",
+      "Spinach"
+    ]
+  },
+  {
+    "name": "Marinara",
+    "size": "3",
+    "toppings": [
+      "Sausage",
+      "Bacon",
+      "Extra cheese",
+      "Black olives"
+    ]
+  },
+  {
+    "name": "Napoletana",
+    "size": 2,
+    "toppings": [
+      "Pepperoni",
+      "Mushrooms",
+      "Onions",
+      "Sausage",
+      "Bacon",
+      "Extra cheese",
+      "Black olives",
+      "Green peppers",
+      "Pineapple",
+      "Spinach"
+    ]
+  },
+  {
+    "name": "Carbonara",
+    "size": 1,
+    "toppings": [
+      "Pepperoni",
+      "Mushrooms",
+      "Onions",
+      "Extra cheese",
+      "Black olives",
+      "Spinach"
+    ]
+  },
+  {
+    "name": "Romana",
+    "size": "1",
+    "toppings": [
+      "Black olives",
+      "Green peppers",
+      "Pineapple",
+      "Spinach"
+    ]
+  },
+  {
+    "name": "Pizza al Pesto",
+    "size": "8",
+    "toppings": [
+      "Pepperoni",
+      "Mushrooms",
+      "Onions",
+      "Sausage",
+      "Bacon",
+      "Extra cheese"
+    ]
+  }
+]
