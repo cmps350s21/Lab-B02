@@ -13,7 +13,7 @@ router.route('/accounts/:acctNo')
     .get(accountService.getAccount)
     .delete(accountService.deleteAccount)
 
-router.route('/accounts/:accNo/trans')
+router.route('/accounts/:acctNo/trans')
     .post(accountService.addTransaction)
 
 export default router

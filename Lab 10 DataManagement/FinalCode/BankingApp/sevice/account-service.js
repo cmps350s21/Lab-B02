@@ -42,7 +42,7 @@ class AccountService {
 
     async deleteAccount(req, res) {
         try{
-            res.json(await accountRepo.deleteAccount(req.params.accNo))
+            res.json(await accountRepo.deleteAccount(req.params.acctNo))
         }catch(e){
             res.status(500).json(e)
         }
