@@ -9,11 +9,18 @@ router.route('/accounts')
     .post(accountService.addAccount)
     .put(accountService.updateAccount)
 
+
+router.route('/accounts/stats')
+    .get(accountService.getStats)
+
 router.route('/accounts/:acctNo')
     .get(accountService.getAccount)
     .delete(accountService.deleteAccount)
 
 router.route('/accounts/:acctNo/trans')
     .post(accountService.addTransaction)
+
+
+
 
 export default router

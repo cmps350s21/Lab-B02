@@ -42,6 +42,25 @@ class AccountRepo {
         await account.save()
         return await Transaction.create(transaction)
     }
+
+    async getStats() {
+        console.log('Hello')
+        return Account.aggregate(
+            [
+                {
+                    $group: {
+                        _id: "$acctType",
+                        totalSum: {
+                            $sum: "$balance"
+                        },
+                        numberOfAccount: {
+                            $sum: 1
+                        }
+                    }
+                }
+            ]
+        )
+    }
 }
 
 export default new AccountRepo()
