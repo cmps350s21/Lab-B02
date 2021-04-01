@@ -1,6 +1,7 @@
 import express from 'express'
 import router from './router.js'
 import mongoose from "mongoose";
+import morgan from 'morgan'
 
 //port number
 const port = 5000
@@ -13,7 +14,7 @@ mongoose.connect(uri , option , ()=>{
     console.log('Connected to database successfully')
 })
 //a middleware
-
+app.use(morgan('dev'))
 app.use(express.json())
 //two types [dynamic , static]
 app.use(express.static('public'))

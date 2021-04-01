@@ -13,7 +13,7 @@ class AccountService {
     async addAccount(req, res) {
         try{
             const account = req.body
-            res.send(await accountRepo.addAccount(account))
+            res.status(201).json(await accountRepo.addAccount(account))
         }catch(e){
             res.status(500).json(e)
         }
@@ -51,7 +51,8 @@ class AccountService {
     async addTransaction(req, res) {
         try{
             const transaction = req.body
-            const trans = accountRepo.addTransaction(transaction)
+            const trans = await accountRepo.addTransaction(transaction)
+            res.json(trans)
         }catch(e) {
             res.status(500).json(e)
         }
