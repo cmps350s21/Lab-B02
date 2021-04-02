@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Management App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<header>
+
+    <img src="img/pngwing.png" class="logo" alt="">
+    <a href="index.html" class="logo">Doha SuperMarket</a>
+    <nav class="nav-bar">
+        <a href="index.html" id="list-products-link">Products</a>
+        <a href="#" id="add-product-link">Add Product</a>
+    </nav>
+</header>
+
+<main>
+    <div class="content">
+        <div class="container" id="container">
+            <div>
+                <h2>Read Products</h2>
+                <input class="btn small-btn" type="button" id="create-product-btn" value="Create New Product">
+                <hr>
+                <div>
+                    <table class="products-table" id="products-table">
+                        <thead class="products-table-head">
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody class="products-table-body" ></tbody>
+                    </table>
+                </div>
+            </div>
+            <input class="btn small-btn red-btn" type="button" id="delete-products-btn" value="Delete All Products">
+        </div>
+    </div>
+</main>
+
+<script src="https://unpkg.com/localbase/dist/localbase.dev.js"></script>
+<script src="js/index.js" type="module"></script>
+</body>
+</html>
