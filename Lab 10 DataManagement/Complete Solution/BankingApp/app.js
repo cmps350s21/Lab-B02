@@ -1,5 +1,5 @@
 import express from 'express'
-import router from './app/router.js'
+import router from './router.js'
 import mongoose from "mongoose";
 import morgan from 'morgan'
 
