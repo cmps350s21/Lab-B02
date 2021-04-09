@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f608941c-9079-43a1-8043-95f2dbea978e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Lab 10 DataManagement/Complete Solution/BankingApp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab 10 DataManagement/Complete Solution/BankingApp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab 10 DataManagement/Complete Solution/BankingApp/model/transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab 10 DataManagement/Complete Solution/BankingApp/model/transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab 10 DataManagement/Complete Solution/BankingApp/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab 10 DataManagement/Complete Solution/BankingApp/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.project4.js">
+  <component name="RunManager" selected="Node.js.project7.js">
     <configuration name="project1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/project1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -63,16 +64,16 @@
     <configuration name="project4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/project4.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="project6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/project6.js" working-dir="$PROJECT_DIR$">
+    <configuration name="project7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/project7.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.project7.js" />
         <item itemvalue="Node.js.project4.js" />
         <item itemvalue="Node.js.project3.js" />
         <item itemvalue="Node.js.project2.js" />
         <item itemvalue="Node.js.project1.js" />
-        <item itemvalue="Node.js.project6.js" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +102,7 @@
       <updated>1585680796566</updated>
       <workItem from="1585680800209" duration="11594000" />
       <workItem from="1617621156914" duration="6621000" />
-      <workItem from="1617885363476" duration="5582000" />
+      <workItem from="1617885363476" duration="7410000" />
     </task>
     <servers />
   </component>

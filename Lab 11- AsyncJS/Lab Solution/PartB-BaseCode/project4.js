@@ -15,16 +15,6 @@ function getCourses() {
                     return courses
                 })
         }) //courses with instruct name
-        .then(courses => {
-            return fs.readJson('data/student.json')
-                .then(students => {
-                    for (const course of courses) {
-                        const registeredStudents = students.filter(s => s.courseIds.includes(course.crn))
-                        course.studentCount = registeredStudents.length
-                    }
-                    return courses
-                })
-        })//courses with student count
         .catch(err => err)
 }
 

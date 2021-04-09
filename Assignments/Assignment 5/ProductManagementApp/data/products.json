@@ -1,0 +1,44 @@
+[
+  {
+    "pid": 10001,
+    "name": "Bananaaaa",
+    "description": "From philippine, Pan elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa",
+    "price": 85
+  },
+  {
+    "pid": 10002,
+    "name": "Orange",
+    "description": "From Spain, Orange, Citrus sinensis, is an evergreen tree in the family Rutaceae grown for its edible fruit",
+    "price": 20
+  },
+  {
+    "pid": 10003,
+    "name": "Carrot",
+    "description": "From Sweden herbaceous, generally biennial plant of the Apiaceae family that produces an edible taproot",
+    "price": 12
+  },
+  {
+    "pid": 10003,
+    "name": "Chocolate",
+    "description": "particularly sweet and gooey, delicious spanish, thin, spiced, sweet and gooey, lone and petrified, spicy hot, late, bittersweet, last bootleg, hopelessly leaky, delightful hot, german sweet, lukewarm hot, watery lukewarm, artificial fat-free, frothy hot, rich molten, sinful dar",
+    "price": 25
+  },
+  {
+    "pid": 9999,
+    "name": "Tomato",
+    "description": "Test",
+    "price": 9999
+  },
+  {
+    "pid": 22,
+    "name": "Tester2",
+    "description": "Testing Product 2",
+    "price": 50
+  },
+  {
+    "pid": 33,
+    "name": "Tester 3",
+    "description": "Testing Product 3",
+    "price": 150
+  }
+]

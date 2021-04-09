@@ -1,0 +1,29 @@
+<form class="product_form" id="form">
+    <fieldset>
+        <legend id="update-title">New Product</legend>
+        <div class="grid product-grid">
+            <div class="filed">
+                <label for="name">Name</label><br>
+            </div>
+            <div class="filed">
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="filed">
+                <label for="description">Description</label><br>
+            </div>
+            <div class="filed">
+                <input type="text" id="description" name="description" required>
+            </div>
+            <div class="filed">
+                <label for="price">Price</label><br>
+            </div>
+            <div class="filed">
+                <input type="number" id="price" name="price" required>
+            </div>
+        </div>
+    </fieldset>
+    <div class="grid">
+        <input class="btn submit-btn" type="submit" value="Save">
+        <input class="btn red-btn" type="button" id="back-btn" value="Back to read products">
+    </div>
+</form>

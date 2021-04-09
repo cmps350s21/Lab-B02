@@ -20,7 +20,4 @@ router.route('/accounts/:acctNo')
 router.route('/accounts/:acctNo/trans')
     .post(accountService.addTransaction)
 
-
-
-
 export default router

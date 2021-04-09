@@ -19,5 +19,4 @@ const transactionSchema = new Schema({
     }
 })
 
-
 export default mongoose.model('Transaction', transactionSchema)
